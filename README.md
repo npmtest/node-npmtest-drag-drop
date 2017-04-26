@@ -1,6 +1,6 @@
 # npmtest-drag-drop
 
-#### test coverage for  [drag-drop (v2.13.2)](https://github.com/feross/drag-drop)  [![npm package](https://img.shields.io/npm/v/npmtest-drag-drop.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-drag-drop) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-drag-drop.svg)](https://travis-ci.org/npmtest/node-npmtest-drag-drop)
+#### basic test coverage for  [drag-drop (v2.13.2)](https://github.com/feross/drag-drop)  [![npm package](https://img.shields.io/npm/v/npmtest-drag-drop.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-drag-drop) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-drag-drop.svg)](https://travis-ci.org/npmtest/node-npmtest-drag-drop)
 
 #### HTML5 drag & drop for humans
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-drag-drop/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-drag-drop/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-drag-drop/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-drag-drop/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-drag-drop/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-drag-drop/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-drag-drop/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-drag-drop/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-drag-drop/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-drag-drop/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-drag-drop/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-drag-drop/build/coverage.html/index.html)
 
@@ -93,7 +93,8 @@
         "example": "npm run build && ecstatic",
         "test": "standard && tape test/*.js"
     },
-    "version": "2.13.2"
+    "version": "2.13.2",
+    "bin": {}
 }
 ```
 
